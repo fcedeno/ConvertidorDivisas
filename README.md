@@ -44,6 +44,10 @@ Cuando ejecutes el programa, se te presentará un menú en la consola:
 
 
 
+![Ejemplo 1](https://github.com/fcedeno/ConvertidorDivisas/assets/19225286/c1239803-3f3e-4d63-9324-37da51e258cd)
+
+
+
 
 
 
