@@ -6,55 +6,111 @@ Este es un convertidor de divisas por consola escrito en Java 17 que utiliza pro
 
 
 - Java 17
-- Maven (opcional, pero recomendado para la gestión de dependencias)
+- Libreria Gson
 
-## Configuración del Proyecto
+## Estructura del proyecto
 
-### Usando Maven
+- CurrencyConverter: Clase que contiene la lógica para convertir entre divisas.
+- ExchangeRateService: Clase que obtiene las tasas de cambio desde la API.
+- Main: Clase que maneja la interacción con el usuario por consola.
 
-Si estás utilizando Maven, añade la siguiente dependencia de Gson en tu archivo `pom.xml`:
 
-```xml
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.8.8</version>
-</dependency> 
+
+### Ejemplo de Ejecucion
+
+Cuando ejecutes el programa, se te presentará un menú en la consola:
+
+```java
+
+Seleccione la dirección de la conversión:
+1. USD a otra moneda
+2. Otra moneda a USD
+3. Salir
+Opción:
+
+```
+En este ejemplo seleccionaremos la opcion numero 1
+
+```java
+
+Seleccione la dirección de la conversión:
+1. USD a otra moneda
+2. Otra moneda a USD
+3. Salir
+Opción: 1
+Seleccione la moneda:
+1. Real brasileño (BRL)
+2. Peso colombiano (COP)
+3. Peso dominicano (DOP)
+Opción: 
+
+```
+Aca podras elegir tu opcion a convertir del USD como moneda base a las siguientes monedas del menu, en este ejemplo seleccionaremos la opcion 1 para convertir al Real brasileño (BRL)
+
+```java
+
+Seleccione la dirección de la conversión:
+1. USD a otra moneda
+2. Otra moneda a USD
+3. Salir
+Opción: 1
+Seleccione la moneda:
+1. Real brasileño (BRL)
+2. Peso colombiano (COP)
+3. Peso dominicano (DOP)
+Opción: 1
+Ingrese la cantidad en USD: 
+
+```
+Luego sale opcion para colocar la cantidad a convertir, en este ejemplo pondremos 200usd
+
+```java
+
+Seleccione la dirección de la conversión:
+1. USD a otra moneda
+2. Otra moneda a USD
+3. Salir
+Opción: 1
+Seleccione la moneda:
+1. Real brasileño (BRL)
+2. Peso colombiano (COP)
+3. Peso dominicano (DOP)
+Opción: 1
+Ingrese la cantidad en USD: 200
+200,00 USD es igual a 1028,38 BRL
+¿Desea realizar otra conversión? (s/n):  
+
+```
+
+Al dia de la prueba 200usd equivale a 1028,38 Real brasileño.
+
+Si desea realizar otra conversion se coloca la letra "s" afirmando que si o "n" para no, en este ejemplo seleccionaremos "n" para salir.
+
+```java
+
+Seleccione la dirección de la conversión:
+1. USD a otra moneda
+2. Otra moneda a USD
+3. Salir
+Opción: 1
+Seleccione la moneda:
+1. Real brasileño (BRL)
+2. Peso colombiano (COP)
+3. Peso dominicano (DOP)
+Opción: 1
+Ingrese la cantidad en USD: 200
+200,00 USD es igual a 1028,38 BRL
+¿Desea realizar otra conversión? (s/n): n
+
+Process finished with exit code 0
+ 
+
+```
+
+
+
+
+
 
 
 ********************************************************************************************************************************************************************************
-
-####Uso
-
-
-Clona este repositorio en tu máquina local.
-Asegúrate de que las clases están correctamente organizadas y compílalas.
-Ejecuta la clase Main.
-
-#Estructura del Proyecto
-
-CurrencyConverter: Clase que contiene la lógica para convertir entre divisas.
-ExchangeRateService: Clase que obtiene las tasas de cambio desde la API.
-Main: Clase que maneja la interacción con el usuario por consola.
-
-
-
-# Ejemplo de Ejecución
-Cuando ejecutes el programa, se te presentará un menú en la consola:
-
-
-
-![Ejemplo 1](https://github.com/fcedeno/ConvertidorDivisas/assets/19225286/6a331ead-d20b-4bc1-b7b3-ec1d28763925)
-
-
-
-
-
-
-
-
-
-
-
-
-
