@@ -24,7 +24,7 @@ Si estás utilizando Maven, añade la siguiente dependencia de Gson en tu archiv
 
 ********************************************************************************************************************************************************************************
 
-#Uso
+####Uso
 
 
 Clona este repositorio en tu máquina local.
@@ -44,7 +44,7 @@ Cuando ejecutes el programa, se te presentará un menú en la consola:
 
 
 
-![Ejemplo 1](https://github.com/fcedeno/ConvertidorDivisas/assets/19225286/c1239803-3f3e-4d63-9324-37da51e258cd)
+![Ejemplo 1](https://github.com/fcedeno/ConvertidorDivisas/assets/19225286/6a331ead-d20b-4bc1-b7b3-ec1d28763925)
 
 
 
